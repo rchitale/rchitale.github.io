@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    
+}
+
+/*This is the CSS code for the navigation bar on all pages and uses a gradient color*/
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    height: 70px;
+}
+
+.nav li{
+    display: inline-block;
+    direction: row;
+    color: white;
+    text-align: center;
+    padding: 20px 16px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+
+/*This is where the style comes for the Home Page */
+
+.trips {
+    display: flex;
+}
+
+.train {
+    flex: 1;
+    justify-content: center;
+    background-image: url(pexels-photo-234507.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+}
+
+.train h1{
+    color:#19547b;
+}
+
+
+.train span{
+    border: 3px solid white;
+    padding: 10px;
+}
+
+
+
+.five {
+    background-image: url(chinese-new-year.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex: 1;
+    height: 300px;
+    text-align: center;
+}
+
+.five h1{
+    color:#19547b;
+}
+
+.five span{
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.nyc {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(pexels-photo-237258.jpeg);
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.options {
+    display: flex;
+
+}
+
+.contact {
+    background-image: url(laptop-2838917_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    height: 300px;
+
+}
+
+.contact h3{
+    text-align: center;
+    color:#19547b;
+    font-size: 25px
+    
+}
+
+
+/*Took this code from W3 schools and altered it to my li elements and hex colors that I chose*/
+/* visited link */
+li a:visited {
+    color: #400040;
+}
+
+/* mouse over link */
+li a:hover {
+    color: #1919ff;
+}
+
+/* selected link */
+li a:active {
+    color: #b2b2ff;
+}
+
+
+/*This is the code for the social media decoration*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+    
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat{
+    background-color: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+/*End Social Media Decoration*/
+
+.manhattan {
+    flex: 1;
+    background-image: url(toytruck.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 0px;
+}
+
+.manhattan h3{
+    text-align: center;
+    color:#19547b;
+    font-size: 25px
+    
+}
+
+.manhattan ul{
+    font-size: 25px;
+    
+}
+
+
+.town {
+    flex: 1;
+    height: 300px;
+    background-image:url(taxi.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.town h3{
+    text-align: center;
+    color:#19547b;
+    font-size: 25px
+    
+}
+
+.town ul{
+    font-size: 25px;
+}
+    
+
+.nyc h1{
+    text-align: center;
+    color: #19547b;
+    padding: 40px;
+    margin-top: 0px;
+    
+}
+.nyc h3{
+    text-align: center;
+    padding-top: 35px;
+    padding: 20px;   
+
+}
+
+.nyc span{
+    border: 3px solid  white
+;
+    padding: 10px;
+}
+
+
+
+
+
+/*This is where the style comes for the About Me page */
+
+
+.backgroundscroll{ 
+    background-image: url(binocs.jpg);
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    width: 50%;
+    position: absolute;
+    padding-left: 20px;
+
+}
+
+.about h3{
+    font-size: 70px; 
+}
+
+
+
+.binoculars{
+    float: right;
+    width: 40%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    font-size: 70px; 
+
+
+}
+
+
+
+
+.training{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+    font-size: 70px; 
+
+   
+}
+
+
+.spots{
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 70px; 
+
+
+    
+}
+
+.enjoy{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 70px; 
+
+}
+
+.enjoy h3{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 70px; 
+
+}
+
+
+
+
+/*This is where the style comes for the Trains page */
+
+.herotrain{
+    height: 400px;
+    background-image: url(tracks.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.map{
+    background-color: red;
+    height: 200px;    
+}
+
+/*This is the googlefont in the CSS*/
+.herotrain h1{
+    color: beige;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 35px;
+    font-family:  'Inconsolata', monospace;
+    font-size: 50px;
+
+}
+.travelideas{
+    display: flex;
+}
+
+.metro{
+    height: 200px;
+    flex: 1;
+    background-color:#FFFF4C;
+    
+}
+.subway{
+    height: 200px;
+    flex: 1;
+    background-image: url(check.png);
+    
+    
+}
+
+.other{
+    height: 200px;
+    background-image: url(brick%20wall.jpg);
+}
+
+h2{
+    margin-top: 0px;
+    text-align: center;
+    color: #303030;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+li{
+    font-size: 25px; 
+
+}
+/*Took this code from W3 schools and altered it to my li elements and hex colors that I chose*/
+/* visited link */
+li a:visited {
+    color: #400040;
+}
+
+/* mouse over link */
+li a:hover {
+    color: #1919ff;
+}
+
+/* selected link */
+li a:active {
+    color: #b2b2ff
+;
+}
+
+
+
+
+
