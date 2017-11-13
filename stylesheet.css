@@ -1,387 +1,154 @@
 body{
+    background-color: #d5b6b6;
+    padding-top:0px;
     margin: 0;
-    
 }
 
-/*This is the CSS code for the navigation bar on all pages and uses a gradient color*/
-
-.nav ul{
+.nav ul {
+    display: block;
     list-style-type: none;
     margin: 0;
-    padding 0;
-    background: linear-gradient(to right, #ffd89b, #19547b);
-    height: 70px;
+    width: 110px;
+    height: 470px;
+    background-color: #f3eaea;   position: fixed;
+    justify-content: space-between;
+
 }
 
 .nav li{
-    display: inline-block;
-    direction: row;
-    color: white;
-    text-align: center;
-    padding: 20px 16px 20px;
+    display: block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 17px;
     text-decoration: none;
-    font-size: 30px;
-    
-    
 }
 
-/*This is where the style comes for the Home Page */
-
-.trips {
-    display: flex;
+p{
+    font-family: 'Lato', sans-serif; 
 }
 
-.train {
-    flex: 1;
-    justify-content: center;
-    background-image: url(pexels-photo-234507.jpeg);
+.eh{
+    background-image: url(train-925982_960_720.jpg);
     background-size: cover;
+    height: 200px;
+    margin-left:120px;
+    padding-top: 20px;
     background-repeat: no-repeat;
-    height: 300px;
+    text-align: center;
+    color:white;
+    font-size: 30px
+}
+
+.resteh{
+    display: block;
+    margin-left: 150px;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;
+    align-content: center;
     text-align: center;
 }
 
-.train h1{
-    color:#19547b;
+.resteh img{
+    width: 50%;
+    float: none;
+
 }
 
-
-.train span{
-    border: 3px solid white;
-    padding: 10px;
+resteh li{
+    text-decoration: none;
 }
 
-
-
-.five {
-    background-image: url(chinese-new-year.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    flex: 1;
-    height: 300px;
+.landeh{
     text-align: center;
+    margin-left: 150px;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;
 }
 
-.five h1{
-    color:#19547b;
-}
-
-.five span{
-    border: 3px solid white;
-    padding: 10px;
-}
-
-.nyc {
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    background-image: url(pexels-photo-237258.jpeg);
-    background-repeat: no-repeat;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-
-.options {
-    display: flex;
-
-}
-
-.contact {
-    background-image: url(laptop-2838917_960_720.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex: 1;
-    height: 300px;
-
-}
-
-.contact h3{
-    text-align: center;
-    color:#19547b;
-    font-size: 25px
+.landeh img{
+    margin: 25px;  
     
 }
 
-
-/*Took this code from W3 schools and altered it to my li elements and hex colors that I chose*/
-/* visited link */
-li a:visited {
-    color: #400040;
+.specialeh{
+    text-align: center;
+    margin-left: 0px;
+    border-top: solid
+    border-top-width: thick;
+    border-top-style: double;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;   
 }
 
-/* mouse over link */
-li a:hover {
-    color: #1919ff;
+/*Font from googlefonts*/
+h4{
+    font-family: 'Kreon', serif;
+    font-size: 20px;    
 }
 
-/* selected link */
-li a:active {
-    color: #b2b2ff;
+.specialeh img {
+    width: 50%;
 }
 
+.transeh{
+    text-align: center;
+    margin-left: 0;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;
+    
+}
 
-/*This is the code for the social media decoration*/
+@font-face{
+    font-family: 'UpperWestSide';
+    src: url('UpperWestSide.ttf');
+}
+/*Font downloaded off the internet from tiff file*/
 
+h1{
+    font-size: 500%;
+    font-family: 'UpperWestSide', sans-serif;
+}
+
+.eh h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*this is the css code for the footer*/
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    margin-top: 50px;
-    margin-left: 30px;
-}
+    border-radius: 50%;}
 
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-    
+/* Twitter */
 .fa-twitter {
     background: #55ACEE;
-    color: white;
-}
+    color: white;}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+/* Snapchat */
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+    color: white;}
 
-.fa-snapchat{
-    background-color: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
-}
-/*End Social Media Decoration*/
-
-.manhattan {
-    flex: 1;
-    background-image: url(toytruck.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    margin-top: 0px;
-}
-
-.manhattan h3{
-    text-align: center;
-    color:#19547b;
-    font-size: 25px
-    
-}
-
-.manhattan ul{
-    font-size: 25px;
-    
-}
-
-
-.town {
-    flex: 1;
-    height: 300px;
-    background-image:url(taxi.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-
-.town h3{
-    text-align: center;
-    color:#19547b;
-    font-size: 25px
-    
-}
-
-.town ul{
-    font-size: 25px;
-}
-    
-
-.nyc h1{
-    text-align: center;
-    color: #19547b;
-    padding: 40px;
-    margin-top: 0px;
-    
-}
-.nyc h3{
-    text-align: center;
-    padding-top: 35px;
-    padding: 20px;   
-
-}
-
-.nyc span{
-    border: 3px solid  white
-;
-    padding: 10px;
-}
-
-
-
-
-
-/*This is where the style comes for the About Me page */
-
-
-.backgroundscroll{ 
-    background-image: url(binocs.jpg);
-    min-height: 300px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.about{
-    width: 50%;
-    position: absolute;
-    padding-left: 20px;
-
-}
-
-.about h3{
-    font-size: 70px; 
-}
-
-
-
-.binoculars{
-    float: right;
-    width: 40%;
-    float: right;
-    padding-left: 20px;
-    padding-right: 0px;
-    margin-right: 0px;
-    font-size: 70px; 
-
-
-}
-
-
-
-
-.training{
-    float: left;
-    width: 30%;
-    padding-left: 20px;
-    font-size: 70px; 
-
-   
-}
-
-
-.spots{
-    float: right;
-    width: 50%;
-    padding-left: 20px;
-    font-size: 70px; 
-
-
-    
-}
-
-.enjoy{
-    float: left;
-    width: 50%;
-    padding-left: 20px;
-    font-size: 70px; 
-
-}
-
-.enjoy h3{
-    padding-bottom: 0px;
-    margin-bottom: 0;
-    font-size: 70px; 
-
-}
-
-
-
-
-/*This is where the style comes for the Trains page */
-
-.herotrain{
-    height: 400px;
-    background-image: url(tracks.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-
-.map{
-    background-color: red;
-    height: 200px;    
-}
-
-/*This is the googlefont in the CSS*/
-.herotrain h1{
-    color: beige;
-    margin-top: 0px;
-    text-align: center;
-    padding-top: 35px;
-    font-family:  'Inconsolata', monospace;
-    font-size: 50px;
-
-}
-.travelideas{
-    display: flex;
-}
-
-.metro{
-    height: 200px;
-    flex: 1;
-    background-color:#FFFF4C;
-    
-}
-.subway{
-    height: 200px;
-    flex: 1;
-    background-image: url(check.png);
-    
-    
-}
-
-.other{
-    height: 200px;
-    background-image: url(brick%20wall.jpg);
-}
-
-h2{
-    margin-top: 0px;
-    text-align: center;
-    color: #303030;
-    font-size: 30px;
-    font-family: 'Inconsolata', monospace;
-}
-
-li{
-    font-size: 25px; 
-
-}
-/*Took this code from W3 schools and altered it to my li elements and hex colors that I chose*/
-/* visited link */
-li a:visited {
-    color: #400040;
-}
-
-/* mouse over link */
-li a:hover {
-    color: #1919ff;
-}
-
-/* selected link */
-li a:active {
-    color: #b2b2ff
-;
-}
-
-
-
-
-
+.footer {
+    padding: px;
+    margin: 20px; }
