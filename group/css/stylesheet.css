@@ -1,10 +1,10 @@
-body{
+.body{
     background-color: #d5b6b6;
     padding-top:0px;
     margin: 0;
 }
 
-.rcnav ul {
+.rcnav ul{
     display: block;
     list-style-type: none;
     margin: 0;
@@ -28,7 +28,7 @@ p{
 }
 
 .rceh{
-    background-image: url(train-925982_960_720.jpg);
+    background-image: url(css/train-925982_960_720.jpg);
     background-size: cover;
     height: 200px;
     margin-left:120px;
@@ -152,3 +152,4 @@ p{
 .rcfooter {
     padding: px;
     margin: 20px; }
+    
