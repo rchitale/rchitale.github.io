@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-.nav ul {
+.rcnav ul {
     display: block;
     list-style-type: none;
     margin: 0;
@@ -15,7 +15,7 @@ body{
 
 }
 
-.nav li{
+.rcnav li{
     display: block;
     padding-right: 25px;
     padding-left: 25px;
@@ -27,7 +27,7 @@ p{
     font-family: 'Lato', sans-serif; 
 }
 
-.eh{
+.rceh{
     background-image: url(train-925982_960_720.jpg);
     background-size: cover;
     height: 200px;
@@ -39,7 +39,7 @@ p{
     font-size: 30px
 }
 
-.resteh{
+.rcresteh{
     display: block;
     margin-left: 150px;
     border-bottom: solid;
@@ -49,17 +49,17 @@ p{
     text-align: center;
 }
 
-.resteh img{
+.rcresteh img{
     width: 50%;
     float: none;
 
 }
 
-resteh li{
+.rcresteh .li{
     text-decoration: none;
 }
 
-.landeh{
+.rclandeh{
     text-align: center;
     margin-left: 150px;
     border-bottom: solid;
@@ -67,12 +67,12 @@ resteh li{
     border-bottom-style: double;
 }
 
-.landeh img{
+.rclandeh img{
     margin: 25px;  
     
 }
 
-.specialeh{
+.rcspecialeh{
     text-align: center;
     margin-left: 0px;
     border-top: solid
@@ -84,16 +84,16 @@ resteh li{
 }
 
 /*Font from googlefonts*/
-h4{
+.h4{
     font-family: 'Kreon', serif;
     font-size: 20px;    
 }
 
-.specialeh img {
+.rcspecialeh img {
     width: 50%;
 }
 
-.transeh{
+.rcehtranseh{
     text-align: center;
     margin-left: 0;
     border-bottom: solid;
@@ -108,12 +108,12 @@ h4{
 }
 /*Font downloaded off the internet from tiff file*/
 
-h1{
+.h1{
     font-size: 500%;
     font-family: 'UpperWestSide', sans-serif;
 }
 
-.eh h1{
+.rceh h1{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -149,6 +149,6 @@ h1{
   background: #125688;
     color: white;}
 
-.footer {
+.rcfooter {
     padding: px;
     margin: 20px; }
