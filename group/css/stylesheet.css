@@ -28,7 +28,7 @@ p{
 }
 
 .rceh{
-    background-image: url(/group/images/ehback.jpg);
+    background-image: url(css/train-925982_960_720.jpg);
     background-size: cover;
     height: 200px;
     margin-left:120px;
@@ -116,7 +116,6 @@ p{
 .rceh h1{
     margin-top: 20px;
     margin-bottom: 20px;
-    color: black;
 }
 
 /*this is the css code for the footer*/
@@ -154,3 +153,173 @@ p{
     padding: px;
     margin: 20px; }
     
+/*this is where Laura's CSS style sheet goes*/
+html, body {
+    height: 100%;
+}
+
+@font-face{
+    font-family: 'UpperWestSide';
+    src: url('../upperwestside.ttf');
+}
+
+.LWmain{
+    min-height: 100%;
+    background-color: #d5b6b6;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-bottom: 60px;
+}
+
+.LWnavbar{
+    align-items: flex-start;
+}
+
+.LWnavbar-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: #f3eaea;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 17px;
+    height: 470px;
+    width: 110px;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+}
+
+.LWnavbar a{
+    text-decoration: none;
+}
+
+.LWnavbar a:hover{
+    color: red;
+}
+
+.LWli{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.LWchildpage{
+    background-color: #d5b6b6;
+    width: 100%;
+}
+
+.LWheroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/homepagebackgroundpic.jpg');
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.LWheroimage h1{
+    text-align: center;
+}
+
+.LWarticle-title{
+    text-align: center;
+    padding-bottom: 0px;
+    padding-right: 110px;
+
+}
+
+.LWarticle-content{
+    padding-right: 110px;
+}
+
+.LWtile-blocks-1, .LWtile-blocks-2{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+}
+
+.LWeast-harlem-tile, .LWmorningside-tile, .LWhells-kitchen-tile, .LWjersey-city-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 100%;
+}
+
+img{
+    padding-bottom: 20px;
+}
+
+.LWend-paragraph-note{
+    padding-right: 110px;
+ 
+}
+
+a:link {
+    color:black;
+}
+
+h1{
+    font-size: 500%;
+    font-family: 'UpperWestSide', sans-serif;
+}
+
+h2{
+    font-size: 300%;
+    font-family: 'Kreon', serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.LWfa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+/* Twitter */
+.LWfa-twitter {
+    background: #55ACEE;
+    color: white;}
+/* Facebook */
+.LWfa-facebook {
+    background: #3B5998;
+    color: white;}
+/* Snapchat */
+.LWfa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+/* Youtube */
+.LWfa-youtube {
+  background: #bb0000;
+  color: white;}
+/* Instagram */
+.LWfa-instagram {
+  background: #125688;
+    color: white;}
+
+.LWfooter-logos {
+    padding-top: 100px;
+    margin: 20px; 
+    text-align:center;
+}
+/*end Laura's style sheet*/
