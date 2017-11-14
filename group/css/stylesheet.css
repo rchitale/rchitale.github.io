@@ -28,7 +28,7 @@ p{
 }
 
 .rceh{
-    background-image: url(images/ehback.jpg);
+    background-image: url(/group/images/ehback.jpg);
     background-size: cover;
     height: 200px;
     margin-left:120px;
