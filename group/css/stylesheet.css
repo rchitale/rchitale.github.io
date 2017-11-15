@@ -398,6 +398,7 @@ p{
     margin: 30px 5px 5px 10px;
     padding: 5px 10px;
     align-self: center;
+    float: left;
 }
 
 
@@ -412,6 +413,7 @@ p{
     margin-right: 0px;
     margin-top: 0px;
     width: 88%;
+    
 }
 
 body {
