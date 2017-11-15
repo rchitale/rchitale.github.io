@@ -154,9 +154,6 @@ p{
     margin: 20px; }
     
 /*this is where Laura's CSS style sheet goes*/
-html, body {
-    height: 100%;
-}
 
 @font-face{
     font-family: 'UpperWestSide';
