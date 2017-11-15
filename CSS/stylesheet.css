@@ -7,7 +7,7 @@ body{
 .nav ul{
     list-style-type: none;
     margin: 0;
-    padding 0;
+    padding: 0;
     background: linear-gradient(to right, #ffd89b, #19547b);
     height: 70px;
 
@@ -117,7 +117,7 @@ body{
     height: 400px;
     background-position: center;
     background-size: cover;
-    background-image: url(pexels-photo-237258.jpeg);
+    background-image: url(/images/pexels-photo-237258.jpeg);
     background-repeat: no-repeat;
     margin-top: 0;
     padding-top: 0;
@@ -130,7 +130,7 @@ body{
 }
 
 .contact {
-    background-image: url(laptop-2838917_960_720.jpg);
+    background-image: url(/images/laptop-2838917_960_720.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@ li a:active {
 
 .manhattan {
     flex: 1;
-    background-image: url(toytruck.jpeg);
+    background-image: url(/images/toytruck.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ li a:active {
 .town {
     flex: 1;
     height: 300px;
-    background-image:url(taxi.jpeg);
+    background-image:url(/images/taxi.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ li a:active {
 
 
 .backgroundscroll{ 
-    background-image: url(binocs.jpg);
+    background-image: url(/images/binocs.jpg);
     min-height: 300px; 
     background-attachment: fixed;
     background-position: center;
@@ -360,7 +360,7 @@ li a:active {
 
 .herotrain{
     height: 400px;
-    background-image: url(tracks.jpeg);
+    background-image: url(/images/tracks.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -395,14 +395,14 @@ li a:active {
 .subway{
     height: 200px;
     flex: 1;
-    background-image: url(check.png);
+    background-image: url(/images/check.png);
     
     
 }
 
 .other{
     height: 200px;
-    background-image: url(brick%20wall.jpg);
+    background-image: url(/images/brickwall.jpg);
 }
 
 h2{
