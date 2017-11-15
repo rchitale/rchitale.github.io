@@ -320,3 +320,181 @@ p{
     text-align:center;
 }
 /*end Laura's style sheet*/
+
+/*beginning of Aileen's stylesheet*/
+
+.agsidebar a:hover {
+    color: #FF0000;
+}
+
+.agsidebar a {
+    text-decoration: none;
+    color: #17202A;
+}
+
+.agsidebar {
+    align-items: flex-start;
+    flex: 1;
+    margin-left: 0;
+}
+
+.agsidebar ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    background-color: #f3eaea;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 470px;
+    width: 110px;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+
+}
+
+.agbuckets, .agpails  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    margin-left: 140px;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+
+.agmini { /*border used only to help visualize layout*/
+    /*border: lightgrey 5px solid;*/
+    padding: 20px 15px;
+    margin: 0px 0px;
+    font-family: 'lato', sans-serif;
+    align-content: center;
+    max-width: 60%;
+    max-height: 40%;
+}
+
+.agtop {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 0px 10px;
+    padding: 10px;
+    flex: 2;
+    align-content: flex-start;
+}
+
+.aghero {
+    margin: 30px 5px 5px 10px;
+    padding: 5px 10px;
+    align-self: center;
+}
+
+
+.agouter {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.agbottom {
+    margin-left: 160px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 88%;
+}
+
+body {
+    /*width: 1024px; Do not use for responsive page*/
+    background-color: #d5b6b6;
+    margin: auto;
+}
+html body {
+    height: 100%;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #17202A;
+}
+h2 {
+    font-family: 'Kreon', serif;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+/* Snapchat */
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+    color: white;}
+
+.agfooter {
+    padding: 60px;
+    /*margin: 20px;*/
+    text-align: center;
+    margin: center;
+    width: 100%;
+}
+@font-face {
+    font-family: 'UpperWestSide';
+    src: url('group/upperwestside.ttf');
+}
+
+h1 {
+    font-size: 500%;
+    font-family: 'UpperWestSide', sans-serif;
+    margin-left: 10px;
+}
+
+.agmini a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #17202A;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+}
+/*end of Aileen's stylesheet*/
