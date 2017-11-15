@@ -8,7 +8,7 @@
     display: block;
     list-style-type: none;
     margin: 0;
-    width: 110px;
+    width: 120px;
     height: 470px;
     background-color: #f3eaea;   position: fixed;
     justify-content: space-between;
@@ -23,6 +23,10 @@
     text-decoration: none;
 }
 
+.rcnav a:hover{
+    color: red;
+}
+
 p{
     font-family: 'Lato', sans-serif; 
 }
@@ -31,7 +35,7 @@ p{
     background-image: url(/group/images/ehback.jpg);
     background-size: cover;
     height: 470px;
-    margin-left:150px;
+    margin-left:110px;
     padding-top: 20px;
     background-repeat: no-repeat;
     text-align: center;
