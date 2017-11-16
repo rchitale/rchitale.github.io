@@ -32,15 +32,15 @@ p{
 }
 
 .rceh{
-    background-image: url(/group/images/ehback.jpg);
     background-size: cover;
+        background-repeat: no-repeat;
+ background-image: url('images/ehback.jpg');
     height: 450px;
     margin-left:110px;
     padding-top: 20px;
-    background-repeat: no-repeat;
     text-align: center;
     color:white;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .rcresteh{
